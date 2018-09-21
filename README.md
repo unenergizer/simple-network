@@ -13,7 +13,7 @@ Contents of the server package (simple.network.server) can be copied to your ser
 To add a new listener make sure you:
 1. Assign variable name and opcode in package simple.network.shared.Opcodes
 2. Register your custom listeners (simple.network.shared.PacketListener) on both the client and server programs.
-3. Put custom listeners go into the simple.network.server/client.packet.in/out respectively.
+3. Put custom listeners into the simple.network.server/client.packet.in/out respectively.
 
 Server specific:
 Modify the ClientManager class for your server as a “PlayerManager” class.  You can treat the Client class as a player class for games.
